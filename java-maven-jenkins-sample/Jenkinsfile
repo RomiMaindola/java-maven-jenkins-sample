@@ -11,7 +11,7 @@ pipeline {
             steps {
                 git branch: 'main',
                     credentialsId: 'github-credentials',
-                    url: 'https://github.com/RomiMaindola/git/tree/975fef33878dbf941e4aea88f06f46ff16346b64/java-maven-jenkins-sample'
+                    url: 'https://github.com/RomiMaindola/java-maven-jenkins-sample.git'
             }
         }
 
@@ -39,6 +39,7 @@ pipeline {
         }
     }
 }
+
 
 
 
